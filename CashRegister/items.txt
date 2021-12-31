@@ -1,0 +1,16 @@
+Code,Item, Colour,Price,Discount
+1,Cashmere Dress,Black,1590.99,0.25
+2,Wool Blazer,Grey,1290.99,0.20
+3,Wool Trousers,Grey,890.99,0.45
+4,Cashmere Cardigan,Ecru,1390.99,0.10
+5,Cashmere Dress,Ecru,1590.99,0.25
+6,Wool Blazer,Black,1290.99,0.20
+7,Wool Trousers,Black,890.99,0.45
+8,Cashmere Socks,Black,159.99,0.45
+9,Cashmere Socks,Ecru,159.99,0.45
+10,Cashmere Scarf,Black,449.99,0.45
+11,Cashmere Beanie,Black,249.99,0.45
+12,Leather Boots,Black,849.99,0.35
+13,Knee-high Leather Boots,Bordeaux,1249.99,0.35
+14,Shearling Coat,Black,2149.99,0.45
+15,Shearling Coat,Ecru,2149.99,0.45
