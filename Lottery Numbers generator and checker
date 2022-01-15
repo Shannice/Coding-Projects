@@ -1,0 +1,39 @@
+import random
+ticket = []
+
+for i in range(0, 6):
+    number = random.randint(1, 59)
+    while number in ticket:
+        number = random.randint(1, 59)
+    ticket.append(number)
+
+ticket.sort()
+
+lotteryNumbers = []
+
+for i in range(0, 6):
+    number = random.randint(1, 59)
+    while number in lotteryNumbers:
+        number = random.randint(1, 59)
+    lotteryNumbers.append(number)
+
+lotteryNumbers.sort()
+
+
+intersection = set(ticket) & set(lotteryNumbers)
+
+if len(intersection) == 7:
+    print('CONGRATULATIONS! You have won the top lottery prize of £1,000,000, as you have matched all seven matching numbers')
+elif len(intersection) == 6:
+    print("Congratulations! You won £10,000 for six matching numbers!")
+elif len(intersection) == 5:
+    print("Congratulations! You won £100 for five matching numbers!")
+elif len(intersection) == 4:
+    print("Congratulations! You won £40 for four matching numbers!")
+elif len(intersection) == 3:
+    print("Congratulations! You won £20 for three matching numbers!")
+else:
+    print("Better luck next time!")
+
+print("ticket numbers:{}".format(ticket))
+print(">>> Today's Lotto lottery numbers are:{} ".format(lotteryNumbers))
